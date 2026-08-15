@@ -2,18 +2,26 @@
 
 Reusable skills for AI content-creation workflows.
 
+## Skill catalog
+
+| Skill | Purpose | Install path |
+| --- | --- | --- |
+| Video Prompt Craft | Turn a static storyboard and emotional target into image-to-video motion prompts and camera guidance. | `skills/video-prompt-craft` |
+| Performer Prompt Engineer | Convert storyboard-based performance analysis into character-performance video prompts. | `skills/performer-prompt-engineer` |
+| Character Designer | Develop character biographies, look-reference prompts, costume/prop support, and character cards from a story or script. | `skills/character-designer` |
+
+Ask an Agent to inspect the relevant `SKILL.md` before installation. For example: “Find the Skill for character performance and install `skills/performer-prompt-engineer`.”
+
 ## Repository layout
 
 Each distributable skill belongs in its own folder:
 
 ```text
 skills/
-  example-skill/
+  skill-name/
     SKILL.md
-    agents/
-      openai.yaml
-    scripts/        # optional
     references/     # optional
+    scripts/        # optional
     assets/         # optional
 ```
 
