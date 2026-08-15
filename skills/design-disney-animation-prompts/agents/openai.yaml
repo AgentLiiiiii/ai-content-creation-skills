@@ -1,0 +1,5 @@
+interface:
+  display_name: "迪士尼动画提示词设计师"
+  short_description: "依据参考图与动画十二原则，生成跨主流视频模型的精准动画提示词"
+  default_prompt: "使用 $design-disney-animation-prompts 把我的参考图和动画想法整理成可直接生成视频的精准提示词。"
+
