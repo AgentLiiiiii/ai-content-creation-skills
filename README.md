@@ -8,7 +8,8 @@
 
 | Skill | 适用任务 | 目录 |
 | --- | --- | --- |
-| **视频提示词工艺** | 动画设计、图生视频动态提示词、情绪化运镜与镜头动态设计。 | `skills/video-prompt-craft` |
+| **迪士尼动画提示词设计** | 参考图动画化、角色表演、环境动态、首尾帧过渡与动画镜头设计；基于经典动画十二原则生成图生视频提示词。 | `skills/design-disney-animation-prompts` |
+| **视频提示词工艺** | 将静态分镜与情绪目标转为图生视频动态提示词、情绪化运镜与镜头动态设计。 | `skills/video-prompt-craft` |
 | **五维表演提示词** | 根据分镜图拆解人物微表情、肢体、视线、呼吸与环境互动，生成表演提示词。 | `skills/performer-prompt-engineer` |
 | **角色设计** | 基于故事或剧本制作人物小传、定妆照提示词、服化道辅助设计与人物卡。 | `skills/character-designer` |
 
@@ -24,7 +25,7 @@
 
 > 请在仓库中帮我安装动画设计 skill。
 
-Agent 应找到“视频提示词工艺”（`skills/video-prompt-craft`），读取其中的 `SKILL.md`，并按当前运行环境完成安装。
+Agent 应优先找到“迪士尼动画提示词设计”（`skills/design-disney-animation-prompts`），读取其中的 `SKILL.md`，并按当前运行环境完成安装。
 
 ### 其他示例
 
